@@ -1,0 +1,7 @@
+(
+    rules: "",
+    model: "pc105+inet",
+    layout: "us,tr,de",
+    variant: ",,",
+    options: Some("terminate:ctrl_alt_bksp"),
+)
