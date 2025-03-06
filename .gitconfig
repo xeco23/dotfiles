@@ -1,8 +1,9 @@
 # This is Git's per-user configuration file.
-[includeIf "gitdir:~/Workspace/work/"]
-    path = .gitconfig-work
-[includeIf "gitdir:~/Workspace/xeco/"]
-    path = .gitconfig-xeco
+[user]
+    name = Enes Hecan
+    email = nshecan@gmail.com
+[includeIf "gitdir:~/Workspace/work/**"]
+    path = ~/Workspace/work/.gitconfig
 [pull]
     rebase = true
 [push]
