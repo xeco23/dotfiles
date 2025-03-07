@@ -1,4 +1,4 @@
 {
     "optInTeamsV2":true,
-    "closeAppOnCross":true
+    "trayIconEnabled":false
 }
