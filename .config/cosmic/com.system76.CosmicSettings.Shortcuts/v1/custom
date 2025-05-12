@@ -2,155 +2,35 @@
     (
         modifiers: [
             Super,
-            Ctrl,
         ],
-        key: "Left",
-    ): SwitchOutput(Left),
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "j",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "Left",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "k",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "u",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "Up",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "Up",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "Down",
-    ): SwitchOutput(Down),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Shift,
-        ],
-        key: "k",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "w",
-    ): ToggleWindowFloating,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "Right",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Return",
-    ): System(Terminal),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "Up",
-    ): SwitchOutput(Up),
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "j",
-    ): Disable,
+        key: "i",
+    ): System(WebBrowser),
     (
         modifiers: [
             Super,
             Ctrl,
             Alt,
         ],
-        key: "k",
+        key: "l",
     ): Disable,
     (
         modifiers: [
             Super,
-        ],
-        key: "m",
-        description: Some("Open Music"),
-    ): Spawn("youtube-music --enable-features=UseOzonePlatform --ozone-platform-hint=auto"),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
+            Alt,
             Shift,
         ],
         key: "Down",
-    ): MoveToOutput(Down),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Tab",
     ): Disable,
     (
         modifiers: [
             Super,
+            Alt,
         ],
         key: "j",
     ): Disable,
     (
         modifiers: [
             Super,
-            Shift,
-        ],
-        key: "h",
-    ): Disable,
-    (
-        modifiers: [
-            Alt,
-            Shift,
-        ],
-        key: "Tab",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
             Alt,
         ],
         key: "Right",
@@ -158,90 +38,16 @@
     (
         modifiers: [
             Super,
-        ],
-        key: "period",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "s",
-    ): ToggleStacking,
-    (
-        modifiers: [
-            Super,
             Ctrl,
-            Alt,
         ],
-        key: "h",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Alt,
-        ],
-        key: "Right",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "h",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "Left",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Shift,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "l",
+        key: "k",
     ): Disable,
     (
         modifiers: [
             Super,
         ],
-        key: "x",
-    ): ToggleSticky,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Alt,
-        ],
-        key: "Up",
-    ): Disable,
+        key: "d",
+    ): System(Launcher),
     (
         modifiers: [
             Super,
@@ -260,59 +66,34 @@
         modifiers: [
             Super,
         ],
-        key: "slash",
+        key: "u",
     ): Disable,
     (
         modifiers: [
             Super,
         ],
-        key: "i",
-    ): System(WebBrowser),
+        key: "k",
+    ): Focus(In),
     (
         modifiers: [
             Super,
-        ],
-        key: "h",
-    ): System(HomeFolder),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "d",
-    ): System(Launcher),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "t",
-        description: Some("Open Teams"),
-    ): Spawn("teams-for-linux --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto"),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "c",
-        description: Some("Open IDE"),
-    ): Spawn("clion"),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "comma",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "e",
-    ): ToggleOrientation,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Alt,
+            Shift,
         ],
         key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "o",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "j",
     ): Disable,
     (
         modifiers: [
@@ -324,62 +105,19 @@
     (
         modifiers: [
             Super,
-            Shift,
-        ],
-        key: "j",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "g",
-    ): Spawn("geany"),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
             Alt,
-        ],
-        key: "Down",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "h",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "Down",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Shift,
-        ],
-        key: "j",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
             Shift,
         ],
         key: "Up",
-    ): MoveToOutput(Up),
+    ): Disable,
     (
         modifiers: [
             Super,
+            Alt,
             Shift,
         ],
-        key: "w",
-    ): System(WorkspaceOverview),
+        key: "h",
+    ): Disable,
     (
         modifiers: [
             Super,
@@ -393,6 +131,20 @@
             Alt,
             Shift,
         ],
+        key: "Right",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "x",
+    ): ToggleSticky,
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
         key: "k",
     ): Disable,
     (
@@ -401,13 +153,33 @@
             Ctrl,
             Shift,
         ],
-        key: "Left",
-    ): MoveToOutput(Left),
+        key: "h",
+    ): Disable,
     (
         modifiers: [
             Super,
             Ctrl,
+            Shift,
+        ],
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
             Alt,
+        ],
+        key: "Up",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Return",
+    ): System(Terminal),
+    (
+        modifiers: [
+            Super,
+            Shift,
         ],
         key: "j",
     ): Disable,
@@ -415,7 +187,14 @@
         modifiers: [
             Super,
         ],
-        key: "o",
+        key: "c",
+        description: Some("Open IDE"),
+    ): Spawn("clion"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "period",
     ): Disable,
     (
         modifiers: [
@@ -443,7 +222,6 @@
         modifiers: [
             Super,
             Ctrl,
-            Shift,
         ],
         key: "h",
     ): Disable,
@@ -451,14 +229,84 @@
         modifiers: [
             Super,
         ],
-        key: "l",
+        key: "m",
+        description: Some("Open Music"),
+    ): Spawn("youtube-music --enable-features=UseOzonePlatform --ozone-platform-hint=auto"),
+    (
+        modifiers: [
+            Alt,
+            Shift,
+        ],
+        key: "Tab",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "j",
     ): Disable,
     (
         modifiers: [
             Super,
         ],
-        key: "k",
+        key: "comma",
     ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "e",
+    ): ToggleOrientation,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "Right",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "j",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "j",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "j",
+    ): Focus(Out),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Up",
+    ): SwitchOutput(Up),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "slash",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "s",
+    ): ToggleStacking,
     (
         modifiers: [
             Super,
@@ -469,6 +317,186 @@
     (
         modifiers: [
             Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "Left",
+    ): MoveToOutput(Left),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Down",
+    ): SwitchOutput(Down),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "w",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "Left",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "Down",
+    ): MoveToOutput(Down),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "w",
+    ): ToggleWindowFloating,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Left",
+    ): SwitchOutput(Left),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Tab",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
         ],
     ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "Up",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "Down",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "g",
+    ): Spawn("geany"),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "Up",
+    ): MoveToOutput(Up),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "t",
+        description: Some("Open Teams"),
+    ): Spawn("teams-for-linux --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto"),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "Left",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "h",
+    ): System(HomeFolder),
 }
