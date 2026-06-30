@@ -2,8 +2,8 @@
 [user]
     name = Enes Hecan
     email = nshecan@gmail.com
-[includeIf "gitdir:~/Workspace/work/**"]
-    path = ~/Workspace/work/.gitconfig
+[includeIf "gitdir:~/Projects/work/**"]
+    path = ~/Projects/work/.gitconfig
 [pull]
     rebase = true
 [push]
